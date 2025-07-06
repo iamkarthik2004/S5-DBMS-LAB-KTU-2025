@@ -1,4 +1,4 @@
-# 📊 S4 DBMS LAB - KTU 2025 🗃️  
+# 📊 S5 DBMS LAB - KTU 2025 🗃️  
 
 ![Database](https://img.shields.io/badge/Database-MySQL%20%7C%20PostgreSQL-blue)  
 ![Language](https://img.shields.io/badge/Language-SQL%20%7C%20PL/SQL-green)  
