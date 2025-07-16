@@ -9,9 +9,9 @@ insert into book values(3,'AI & ML',400,2);
 insert into book values(4,'React',285,2);
 
 create table author(author_id int primary key,a_name varchar(20),email varchar(30),phone int);
-insert into author values(1,'Nithin Krishna','Nithinkrishna202@gmail.com',7485123693);
-insert into author values(2,'Athul Krishna','Agarval@gmail.com',7549647532);
-insert into author values(3,'Karthik','karthik45@gmail.com',9674746329);
+insert into author values(1,'Karthik Krishnan','karthik25@gmail.com',7485123693);
+insert into author values(2,'Melbin','Melbin27@gmail.com',7549647532);
+insert into author values(3,'Jameson','jj25@gmail.com',9674746329);
 
 create table book_authors(bookid int,author_id int,foreign key(bookid) references book(bookid),foreign key(author_id) references author(author_id),primary key(bookid,author_id));
 insert into book_authors values(1,2);
@@ -27,9 +27,3 @@ create table book_return(issue_id int primary key,actual_date date,date_of_retur
 
 create table fine(from_days int,to_days int,amount int);
 
-
-create table library (
-    lib_id int primary key,
-    lib_address varchar(100),
-    lib_name varchar(50)
-);  
