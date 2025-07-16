@@ -1,0 +1,43 @@
+INSERT INTO Book_Issue (Issue_id, Date_of_issue, Book_id, Patron_id, Exp_dateOf_return) 
+VALUES ('I003', '2025-07-10', 'B003', 'PT003', '2025-07-25');
+
+INSERT INTO BookReturn (Issue_id, Actual_dateOf_return, LateDays, LateFees) 
+VALUES ('I001', '2025-07-16', '1', 10);
+
+INSERT INTO BookReturn (Issue_id, Actual_dateOf_return, LateDays, LateFees) 
+VALUES ('I002', '2025-07-20', '0', 0);
+
+INSERT INTO BookReturn (Issue_id, Actual_dateOf_return, LateDays, LateFees) 
+VALUES ('I003', '2025-07-28', '3', 30);
+
+INSERT INTO Fines (FromDate, ToDate, Amount) 
+VALUES (TO_DATE('2025-07-01', 'YYYY-MM-DD'), TO_DATE('2025-07-05', 'YYYY-MM-DD'), 5);
+
+INSERT INTO Fines (FromDate, ToDate, Amount) 
+VALUES (TO_DATE('2025-07-06', 'YYYY-MM-DD'), TO_DATE('2025-07-10', 'YYYY-MM-DD'), 10);
+
+INSERT INTO Fines (FromDate, ToDate, Amount) 
+VALUES (TO_DATE('2025-07-11', 'YYYY-MM-DD'), TO_DATE('2025-07-15', 'YYYY-MM-DD'), 20);
+
+SELECT * FROM Publisher;
+
+SELECT * FROM Author;
+
+SELECT * FROM Book;
+
+SELECT * FROM Book_Author;
+
+SELECT * FROM Patron;
+
+SELECT * FROM Book_Issue;
+
+SELECT * FROM BookReturn;
+
+SELECT * FROM Fines;
+
+
+ALTER TABLE Patron
+MODIFY Status VARCHAR2(3) DEFAULT 'YES';
+
+DELETE FROM Book
+WHERE Book_id = '10';
