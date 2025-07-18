@@ -32,26 +32,26 @@ Click below to access each **experiment folder**:
 
 # 🔹 DBMS - LIST OF EXPERIMENTS (SJCET 2025)
 
-🔹 **[Experiment 1 - Database Schema and ER diagram (CO1)](#)**  
-🔹 **[Experiment 2 - Creation, modification, configuration and deletion of database using UI and SQL commands (CO2)](#)**  
-🔹 **[Experiment 3 - Implementation of DDL commands (CO2)](#)**  
-🔹 **[Experiment 4 - Database initialization - data insert, data import to a database (CO2)](#)**  
-🔹 **[Experiment 5 - Implementation of DML commands (CO2)](#)**  
-🔹 **[Experiment 6 - Implementation of Built-in functions in RDBMS using temp tables (CO2)](#)**  
-🔹 **[Experiment 7 - Implementation of aggregate functions in SQL (CO2)](#)**  
-🔹 **[Experiment 8 - Implementation of Order By, Group By and Having clause (CO2)](#)**  
-🔹 **[Experiment 9 - Implementation of Set Operators, Nested queries and Join queries (CO2)](#)**  
-🔹 **[Experiment 10 - Implementation of SQL TCL (CO2)](#)**  
-🔹 **[Experiment 11 - Implementation of SQL DCL (CO2)](#)**  
-🔹 **[Experiment 12 - Creation of Views and Assertions (CO2)](#)**  
-🔹 **[Experiment 13 - Implementation of control statements using PL/SQL with exception handling (CO4)](#)**  
-🔹 **[Experiment 14 - Creation of procedures, triggers and functions (CO3, CO4)](#)**  
-🔹 **[Experiment 15 - Creation of Packages (CO4)](#)**  
-🔹 **[Experiment 16 - Creation of Cursors (CO3)](#)**  
-🔹 **[Experiment 17 - Database backup and restore using commands (CO2)](#)**  
-🔹 **[Experiment 18 - Query analysis using Query Plan/Show Plan (CO2)](#)**  
-🔹 **[Experiment 19 - Familiarization of NoSQL Databases and CRUD operations (CO5)](#)**  
-🔹 **[Experiment 20 - Design a database application for a problem (CO6)](#)**  
+🔹 **Experiment 1 - [Database Schema and ER diagram (CO1)](#)**  
+🔹 **Experiment 2 - [Creation, modification, configuration and deletion of database using UI and SQL commands (CO2)](#)**  
+🔹 **Experiment 3 - [Implementation of DDL commands (CO2)](#)**  
+🔹 **Experiment 4 - [Database initialization - data insert, data import to a database (CO2)](#)**  
+🔹 **Experiment 5 - [Implementation of DML commands (CO2)](#)**  
+🔹 **Experiment 6 - [Implementation of Built-in functions in RDBMS using temp tables (CO2)](#)**  
+🔹 **Experiment 7 - [Implementation of aggregate functions in SQL (CO2)](#)**  
+🔹 **Experiment 8 - [Implementation of Order By, Group By and Having clause (CO2)](#)**  
+🔹 **Experiment 9 - [Implementation of Set Operators, Nested queries and Join queries (CO2)](#)**  
+🔹 **Experiment 10 - [Implementation of SQL TCL (CO2)](#)**  
+🔹 **Experiment 11 - [Implementation of SQL DCL (CO2)](#)**  
+🔹 **Experiment 12 - [Creation of Views and Assertions (CO2)](#)**  
+🔹 **Experiment 13 - [Implementation of control statements using PL/SQL with exception handling (CO4)](#)**  
+🔹 **Experiment 14 - [Creation of procedures, triggers and functions (CO3, CO4)](#)**  
+🔹 **Experiment 15 - [Creation of Packages (CO4)](#)**  
+🔹 **Experiment 16 - [Creation of Cursors (CO3)](#)**  
+🔹 **Experiment 17 - [Database backup and restore using commands (CO2)](#)**  
+🔹 **Experiment 18 - [Query analysis using Query Plan/Show Plan (CO2)](#)**  
+🔹 **Experiment 19 - [Familiarization of NoSQL Databases and CRUD operations (CO5)](#)**  
+🔹 **Experiment 20 - [Design a database application for a problem (CO6)](#)**  
 
 
 ## 📘 ER Diagrams & Case Studies  
