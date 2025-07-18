@@ -30,14 +30,29 @@ Refer to the official **KTU DBMS syllabus** for lab and theory topics:
 ## 📂 Experiment Folders  
 Click below to access each **experiment folder**:
 
+# 🔹 DBMS - LIST OF EXPERIMENTS
+
 🔹 **[Experiment 1 - Basic SQL Queries (DDL, DML, DCL)](https://github.com/iamkarthik2004/S4-DBMS-LAB-KTU-2025/tree/main/Expt1)**  
-🔹 **[Experiment 2 - Aggregate Functions and Grouping](https://github.com/iamkarthik2004/S4-DBMS-LAB-KTU-2025/tree/main/Expt2)**  
-🔹 **[Experiment 3 - Nested Queries & Joins](https://github.com/iamkarthik2004/S4-DBMS-LAB-KTU-2025/tree/main/Expt3)**  
-🔹 **[Experiment 4 - Views and Indexing](https://github.com/iamkarthik2004/S4-DBMS-LAB-KTU-2025/tree/main/Expt4)**  
-🔹 **[Experiment 5 - PL/SQL Programming](https://github.com/iamkarthik2004/S4-DBMS-LAB-KTU-2025/tree/main/Expt5)**  
-🔹 **[Experiment 6 - Cursors and Triggers](https://github.com/iamkarthik2004/S4-DBMS-LAB-KTU-2025/tree/main/Expt6)**  
-🔹 **[Experiment 7 - Stored Procedures & Functions](https://github.com/iamkarthik2004/S4-DBMS-LAB-KTU-2025/tree/main/Expt7)**  
-🔹 **[Experiment 8 - ER Model to Relational Mapping (Case Study)](https://github.com/iamkarthik2004/S4-DBMS-LAB-KTU-2025/tree/main/Expt8)**  
+🔹 **[Experiment 2 - Database Schema and ER diagram](#)**  
+🔹 **[Experiment 3 - Creation, modification, configuration and deletion of database using UI and SQL commands](#)**  
+🔹 **[Experiment 4 - Database initialization - data insert, data import to a database](#)**  
+🔹 **[Experiment 5 - Implementation of Built-in functions in RDBMS using temp tables](#)**  
+🔹 **[Experiment 6 - Implementation of aggregate functions in SQL](#)**  
+🔹 **[Experiment 7 - Implementation of Order By, Group By and Having clause](#)**  
+🔹 **[Experiment 8 - Implementation of Set Operators, Nested queries and Join queries](#)**  
+🔹 **[Experiment 9 - Implementation of SQL TCL](#)**  
+🔹 **[Experiment 10 - Implementation of SQL DCL](#)**  
+🔹 **[Experiment 11 - Creation of Views and Assertions](#)**  
+🔹 **[Experiment 12 - Implementation of control statements using PL/SQL with exception handling](#)**  
+🔹 **[Experiment 13 - Creation of procedures, triggers and functions](#)**  
+🔹 **[Experiment 14 - Creation of Packages](#)**  
+🔹 **[Experiment 15 - Creation of Cursors](#)**  
+🔹 **[Experiment 16 - Database backup and restore using commands](#)**  
+🔹 **[Experiment 17 - Query analysis using Query Plan/Show Plan](#)**  
+🔹 **[Experiment 18 - Familiarization of NoSQL Databases and CRUD operations](#)**  
+🔹 **[Experiment 19 - Design a database application for a problem](#)**  
+
+
 
 ## 📘 ER Diagrams & Case Studies  
 For complex case studies and ER diagrams used in the lab:  
