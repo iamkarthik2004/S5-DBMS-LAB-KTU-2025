@@ -32,10 +32,10 @@ Click below to access each **experiment folder**:
 
 # 🔹 DBMS - LIST OF EXPERIMENTS (SJCET 2025)
 
-🔹 **Experiment 1 - [Database Schema and ER diagram (CO1)](#)**  
-🔹 **Experiment 2 - [Creation, modification, configuration and deletion of database using UI and SQL commands (CO2)](#)**  
-🔹 **Experiment 3 - [Implementation of DDL commands (CO2)](#)**  
-🔹 **Experiment 4 - [Database initialization - data insert, data import to a database (CO2)](#)**  
+🔹 **Experiment 1 - [Database Schema and ER diagram (CO1)](https://github.com/iamkarthik2004/S5-DBMS-LAB-KTU-2025/tree/main/Expt1)**  
+🔹 **Experiment 2 - [Creation, modification, configuration and deletion of database using UI and SQL commands (CO2)](https://github.com/iamkarthik2004/S5-DBMS-LAB-KTU-2025/tree/main/Expt2)**  
+🔹 **Experiment 3 - [Implementation of DDL commands (CO2)](https://github.com/iamkarthik2004/S5-DBMS-LAB-KTU-2025/tree/main/Expt3)**  
+🔹 **Experiment 4 - [Database initialization - data insert, data import to a database (CO2)](https://github.com/iamkarthik2004/S5-DBMS-LAB-KTU-2025/tree/main/Expt4)**  
 🔹 **Experiment 5 - [Implementation of DML commands (CO2)](#)**  
 🔹 **Experiment 6 - [Implementation of Built-in functions in RDBMS using temp tables (CO2)](#)**  
 🔹 **Experiment 7 - [Implementation of aggregate functions in SQL (CO2)](#)**  
