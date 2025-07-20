@@ -54,10 +54,6 @@ Click below to access each **experiment folder**:
 🔹 **Experiment 20 - [Design a database application for a problem (CO6)](#)**  
 
 
-## 📘 ER Diagrams & Case Studies  
-For complex case studies and ER diagrams used in the lab:  
-📂 [**ER Diagram Resources**](https://drive.google.com/drive/folders/1s0s9yqOd-DlrTmuB_tXk9_Ts9hcce0hm?usp=sharing)  
-
 ## 🤝 Contributing  
 🔹 Found a mistake or have a better solution? Feel free to contribute!  
 🔹 Fork the repo, apply your changes, and raise a pull request.  
