@@ -20,7 +20,7 @@ Before running the programs, ensure you have the following:
 ## 📜 Lab Resources & Documentation  
 For complete **queries, procedures, and explanations**, check the link below:  
 
-📂 [**DBMS Lab Programs & Algorithms**](https://drive.google.com/drive/folders/1kYKSZQuJ_HDeCuHZYZgaA8iE7k0eeVbT?usp=sharing)
+📂 [**DBMS Lab Programs & Algorithms**](https://drive.google.com/drive/u/1/folders/1XL_nHZZkTIb1SmehlqvaPax7uczXBVFX)
 
 ## 📖 KTU DBMS Syllabus  
 Refer to the official **KTU DBMS syllabus** for lab and theory topics:  
