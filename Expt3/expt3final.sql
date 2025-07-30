@@ -72,20 +72,20 @@ CREATE TABLE Fines(
 
 -- Publishers
 INSERT INTO Publisher (Publisher_id, Publisher_Name, Address, PhoneNo) 
-VALUES ('P001', 'DC Books', 'Kottayam, Kerala', 9400123456);
+VALUES ('P001', 'DC Books', 'Kottayam', 9400123456);
 
 INSERT INTO Publisher (Publisher_id, Publisher_Name, Address, PhoneNo) 
-VALUES ('P002', 'Mathrubhumi Publishing', 'Kozhikode, Kerala', 9800345678);
+VALUES ('P002', 'Mathrubhumi Publishing', 'Kozhikode', 9800345678);
 
 INSERT INTO Publisher (Publisher_id, Publisher_Name, Address, PhoneNo) 
-VALUES ('P003', 'Green Books', 'Thrissur, Kerala', 9745681234);
+VALUES ('P003', 'Green Books', 'Thrissur', 9745681234);
 
 -- Authors
 INSERT INTO Author (Author_id, Author_Name, Email, PhoneNo) 
 VALUES ('A014', 'A.P.J. Abdul Kalam', 'apj.kalam@visionindia.in', 9847000014);
 
 INSERT INTO Author (Author_id, Author_Name, Email, PhoneNo) 
-VALUES ('A002', 'Paulo Coelho', 'beniyamin@keralalit.in', 9847000002);
+VALUES ('A002', 'Paulo Coelho', 'paulofmcoelho@gmail.com ', 9847000002);
 
 INSERT INTO Author (Author_id, Author_Name, Email, PhoneNo) 
 VALUES ('A003', 'M.T. Vasudevan Nair', 'mt.vasudevan@keralalit.in', 9847000003);
