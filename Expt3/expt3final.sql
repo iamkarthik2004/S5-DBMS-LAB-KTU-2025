@@ -107,13 +107,13 @@ INSERT INTO Book_Author (Book_id, Author_id) VALUES ('B003', 'A003');
 
 -- Members
 INSERT INTO Member1 (Member_id, Member_Name, Branch, Year_of_join, RollNo, Email, PhoneNo, Status) 
-VALUES ('MB001', 'Karthik', 'Computer Science', 2023, 45, 'karthik.krishnan@sjcet.ac.in', 9847000045, 'ACT');
+VALUES ('MB001', 'Karthik', 'CSE', 2023, 45, 'karthik@sjcet.ac.in', 9847000045, 'ACT');
 
 INSERT INTO Member1 (Member_id, Member_Name, Branch, Year_of_join, RollNo, Email, PhoneNo, Status) 
-VALUES ('MB002', 'Adhil', 'Mechanical Eng', 2023, 52, 'abijithraj@sjcet.ac.in', 9847000052, 'ACT');
+VALUES ('MB002', 'Adhil', 'MECH', 2023, 52, 'adhil@sjcet.ac.in', 9847000052, 'ACT');
 
 INSERT INTO Member1 (Member_id, Member_Name, Branch, Year_of_join, RollNo, Email, PhoneNo, Status) 
-VALUES ('MB003', 'Amal', 'Electrical Eng', 2022, 61, 'amjith.sajith@sjcet.ac.in', 9847000061, 'INA');
+VALUES ('MB003', 'Amal', 'EEE', 2022, 61, 'amal@sjcet.ac.in', 9847000061, 'INA');
 
 -- Book Issues
 INSERT INTO Book_Issue (Issue_id, Date_of_issue, Book_id, Member_id, Exp_dateOf_return) 
