@@ -82,17 +82,17 @@ VALUES ('P003', 'Green Books', 'Thrissur', 9745681234);
 
 -- Authors
 INSERT INTO Author (Author_id, Author_Name, Email, PhoneNo) 
-VALUES ('A001', 'A.P.J. Abdul Kalam', 'apj.kalam@visionindia.in', 9847000014);
+VALUES ('A001', 'A.P.J. Abdul Kalam', 'apj.kalam@gmail.com', 9847000014);
 
 INSERT INTO Author (Author_id, Author_Name, Email, PhoneNo) 
 VALUES ('A002', 'Paulo Coelho', 'paulofmcoelho@gmail.com ', 9847000002);
 
 INSERT INTO Author (Author_id, Author_Name, Email, PhoneNo) 
-VALUES ('A003', 'M.T. Vasudevan Nair', 'mt.vasudevan@keralalit.in', 9847000003);
+VALUES ('A003', 'M.T. Vasudevan Nair', 'mt@gmai.com', 9847000003);
 
 -- Books
 INSERT INTO Book (Book_id, Title, Price, Publisher_id, Author_id, isbn) 
-VALUES ('B001', 'Wings of Fire', 350, 'P002', 'A014', 9781);
+VALUES ('B001', 'Wings of Fire', 350, 'P001', 'A001', 9781);
 
 INSERT INTO Book (Book_id, Title, Price, Publisher_id, Author_id, isbn) 
 VALUES ('B002', 'The Alchemist', 350, 'P002', 'A002', 9782);
