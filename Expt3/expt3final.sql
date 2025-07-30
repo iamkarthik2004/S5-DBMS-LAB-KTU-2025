@@ -82,7 +82,7 @@ VALUES ('P003', 'Green Books', 'Thrissur', 9745681234);
 
 -- Authors
 INSERT INTO Author (Author_id, Author_Name, Email, PhoneNo) 
-VALUES ('A014', 'A.P.J. Abdul Kalam', 'apj.kalam@visionindia.in', 9847000014);
+VALUES ('A001', 'A.P.J. Abdul Kalam', 'apj.kalam@visionindia.in', 9847000014);
 
 INSERT INTO Author (Author_id, Author_Name, Email, PhoneNo) 
 VALUES ('A002', 'Paulo Coelho', 'paulofmcoelho@gmail.com ', 9847000002);
