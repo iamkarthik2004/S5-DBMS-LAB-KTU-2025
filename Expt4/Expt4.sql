@@ -29,15 +29,15 @@ select * from employee;
 --Qn 1
 select emp_name from employee where emp_salary_in_us_dollar > 7000;
 
---Qn 3
-insert into employee (emp_id, emp_name, emp_dept, emp_salary_in_us_dollar) 
-values (6,'Daniel Haris','Production',60700);
-
 --Qn 2
 update employee set emp_salary_in_us_dollar = 8200 where emp_name = 'David Smith';
 
 --(insert into employee (emp_id, emp_name, emp_dept, emp_salary_in_us_dollar) 
 --values (7,'David Smith','Marketing',802000);)
+
+--Qn 3
+insert into employee (emp_id, emp_name, emp_dept, emp_salary_in_us_dollar) 
+values (6,'Daniel Haris','Production',60700);
 
 --Qn 4 (delete the employee with emp_id = 3)
 delete from employee where emp_id = 3;
