@@ -73,7 +73,7 @@ SELECT REVERSE('racecar') FROM DUAL;
 SELECT LENGTH('Oracle Database') FROM DUAL;
 
 --Qn 24
-SELECT ('Oracle' | 'SQL' | 'is' | 'powerful' || 'flexible') FROM DUAL;
+SELECT ('Oracle' || '' || 'SQL' || '' || 'is' || '' || 'powerful' || '' || 'flexible') FROM DUAL;
 
 --Qn 25
 SELECT CONCAT('Karthik', 'Krishnan') FROM DUAL;
