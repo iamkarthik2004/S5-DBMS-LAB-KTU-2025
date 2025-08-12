@@ -36,10 +36,10 @@ Click below to access each **experiment folder**:
 🔹 **Experiment 2 - [Creation, modification, configuration and deletion of database using UI and SQL commands (CO2)](https://github.com/iamkarthik2004/S5-DBMS-LAB-KTU-2025/tree/main/Expt2)**  
 🔹 **Experiment 3 - [Implementation of DDL commands (CO2)](https://github.com/iamkarthik2004/S5-DBMS-LAB-KTU-2025/tree/main/Expt3)**  
 🔹 **Experiment 4 - [Database initialization - data insert, data import to a database (CO2)](https://github.com/iamkarthik2004/S5-DBMS-LAB-KTU-2025/tree/main/Expt4)**  
-🔹 **Experiment 5 - [Implementation of DML commands (CO2)](#)**  
-🔹 **Experiment 6 - [Implementation of Built-in functions in RDBMS using temp tables (CO2)](#)**  
-🔹 **Experiment 7 - [Implementation of aggregate functions in SQL (CO2)](#)**  
-🔹 **Experiment 8 - [Implementation of Order By, Group By and Having clause (CO2)](#)**  
+🔹 **Experiment 5 - [Implementation of DML commands (CO2)](https://github.com/iamkarthik2004/S5-DBMS-LAB-KTU-2025/tree/main/Expt5)**  
+🔹 **Experiment 6 - [Implementation of Built-in functions in RDBMS using temp tables (CO2)](https://github.com/iamkarthik2004/S5-DBMS-LAB-KTU-2025/tree/main/Expt6)**  
+🔹 **Experiment 7 - [Implementation of aggregate functions in SQL (CO2)](https://github.com/iamkarthik2004/S5-DBMS-LAB-KTU-2025/tree/main/Expt7)**  
+🔹 **Experiment 8 - [Implementation of Order By, Group By and Having clause (CO2)](https://github.com/iamkarthik2004/S5-DBMS-LAB-KTU-2025/tree/main/Expt8)**  
 🔹 **Experiment 9 - [Implementation of Set Operators, Nested queries and Join queries (CO2)](#)**  
 🔹 **Experiment 10 - [Implementation of SQL TCL (CO2)](#)**  
 🔹 **Experiment 11 - [Implementation of SQL DCL (CO2)](#)**  
