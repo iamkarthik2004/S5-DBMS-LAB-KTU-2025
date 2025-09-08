@@ -1,27 +1,39 @@
-AIM:
+# Experiment – Implementation of SQL TCL Commands  
 
-To implement SQL TCL commands.
+## 🎯 Aim  
+To implement SQL TCL commands.  
 
-THEORY:
+---
 
-In SQL, TCL stands for Transaction control language.
+## 📚 Theory  
 
-A single unit of work in a database is formed after the consecutive execution of commands is
+In SQL, **TCL** stands for **Transaction Control Language**.  
 
-known as a transaction.
+- A transaction is a single unit of work in a database, formed after the consecutive execution of commands.  
+- TCL commands help the user manage the transactions that take place in a database.  
+- Commonly used TCL commands:  
+  - **COMMIT** – Saves all the changes permanently to the database.  
+  - **ROLLBACK** – Undoes the changes made in the current transaction.  
+  - **SAVEPOINT** – Sets a point within a transaction to which you can later roll back.  
 
-There are certain commands present in SQL known as TCL commands that help the user manage
+---
 
-the transactions that take place in a database.
+## 📝 Questions  
 
-COMMIT. ROLLBACK and SAVEPOINT are the most commonly used TCL commands in SQL.
+Create a table **Bank** with the following attributes:  
+- `bankname`  
+- `headoffice`  
+- `branch`  
+- `branchcode`  
 
-Questions:
+Then perform the following operations:  
+- `COMMIT`  
+- `SAVEPOINT`  
+- `ROLLBACK`  
 
-Create a table bank with bankname,headoffice,branch and branchcode as attributes and perform
+---
 
-commit,savepoint and rollback commands.
+## ✅ Result  
 
-RESULT:
-
-Implementation of SQL TCL commands is successfully done and Output is verified. CO2 is attained.
+Implementation of SQL TCL commands is successfully done and output is verified.  
+**CO2 is attained.**  
