@@ -98,7 +98,7 @@ VALUES (25, 105, 1145);
 
 
 --Qn 1
-SELECT * FROM Customers c join orderss o on c.custid=o.custid;
+SELECT * FROM Customers c JOIN Orderss o ON c.custid = o.custid;
 
 --Qn 2
 SELECT * FROM Customers c join delivery d on c.custid=d.custid;
@@ -107,4 +107,47 @@ SELECT * FROM Customers c join delivery d on c.custid=d.custid;
 SELECT c.CustName, o.Orderdate FROM customers c join orderss o on c.custid = o.custid where CustName like 'S%';
 
 --Qn 4
-SELECT c.CustName='Elvin' 
+SELECT * FROM Customers c WHERE c.CustName = 'Elvin';
+
+--Qn 5
+SELECT o.OrderId, o.Orderdate, o.Quantity, i.Itemname, i.Price 
+FROM Orderss o
+JOIN Items i ON o.Itemid = i.Itemid;
+
+--Qn 6
+SELECT c.CustName, i.Itemname, o.Quantity 
+FROM Customers c
+JOIN Orderss o ON c.Custid = o.Custid
+JOIN Items i ON o.Itemid = i.Itemid;
+
+--Qn 7
+SELECT d.deliveryid, c.CustName, o.OrderId, o.Orderdate 
+FROM Delivery d
+JOIN Customers c ON d.Custid = c.Custid
+JOIN Orderss o ON d.Orderid = o.Orderid;
+
+--Qn 8
+SELECT * 
+FROM Customers 
+WHERE State = 'Kerala';
+
+--Qn 9
+SELECT * 
+FROM Items 
+WHERE Instock < 10;
+
+--QN 10
+SELECT * 
+FROM Orderss 
+WHERE Orderdate > '2020-01-01';
+
+--Qn 11
+SELECT o.OrderId, c.CustName, (o.Quantity * i.Price) AS TotalAmount 
+FROM Orderss o
+JOIN Customers c ON o.Custid = c.Custid
+JOIN Items i ON o.Itemid = i.Itemid;
+
+--Qn 12
+SELECT State, COUNT(*) AS Total_Customers 
+FROM Customers 
+GROUP BY State;
