@@ -80,4 +80,46 @@ VALUES (105, 4, 5, TO_DATE('2025-07-05', 'YYYY-MM-DD'), 2);
 SELECT * FROM Customer ORDER BY CustomerName ASC;
 
 --Qn 2
+SELECT OrderID, CustomerID, OrderDate FROM Orders ORDER BY OrderDate ASC;
+
+--Qn 3
+SELECT EmployeeID, FirstName, LastName, BirthDate
+FROM Employees
+WHERE BirthDate > TO_DATE('01-01-1980', 'DD-MM-YYYY')
+ORDER BY BirthDate DESC;
+
+--Qn 4
+SELECT o.OrderID, o.OrderDate, c.CustomerName, c.Country
+FROM Orders o
+JOIN Customer c ON o.CustomerID = c.CustomerID
+WHERE c.Country = 'USA'
+ORDER BY o.OrderDate DESC;
+
+--Qn 5
+SELECT c.CustomerName, COUNT(o.OrderID) AS TotalOrders
+FROM Customer c
+LEFT JOIN Orders o ON c.CustomerID = o.CustomerID
+GROUP BY c.CustomerName
+ORDER BY TotalOrders DESC;
+
+--Qn 6
+SELECT City, COUNT(CustomerID) AS TotalCustomers
+FROM Customer
+GROUP BY City
+ORDER BY TotalCustomers DESC;
+
+--Qn 7
+SELECT c.CustomerName, COUNT(o.OrderID) AS TotalOrders
+FROM Customer c
+JOIN Orders o ON c.CustomerID = o.CustomerID
+GROUP BY c.CustomerName
+HAVING COUNT(o.OrderID) > 2
+ORDER BY TotalOrders DESC;
+
+--Qn 8
+SELECT City, COUNT(CustomerID) AS TotalCustomers
+FROM Customer
+GROUP BY City
+HAVING COUNT(CustomerID) > 3
+ORDER BY TotalCustomers DESC;
 
