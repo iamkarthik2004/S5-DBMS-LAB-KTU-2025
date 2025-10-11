@@ -10,7 +10,7 @@ PL/SQL is basically a **procedural language**, which provides the functionality 
 PL/SQL can execute a number of queries in one block using a single command.
 
 ### 🔹 Syntax:
-```plsql
+```sql
 DECLARE
    <declarations section>
 BEGIN
