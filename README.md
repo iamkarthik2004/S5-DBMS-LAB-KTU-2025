@@ -60,8 +60,6 @@ Click below to access each **experiment folder**:
 
 ## 🏆 Credits  
 Crafted with 💡 by and for **KTU CSE** students.  
-Special thanks to all contributors and mentors!  
-
 ---
 
 🌟 **Star this repo if it helped you ace DBMS Lab!** 🌟  
