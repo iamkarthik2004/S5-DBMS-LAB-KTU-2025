@@ -33,7 +33,7 @@ Triggers are, in fact, written to be executed in response to any of the followin
 - A database operation (SERVERERROR, LOGON, LOGOFF, STARTUP, or SHUTDOWN).
 
 ## Syntax
-```
+```sql
 CREATE [OR REPLACE] TRIGGER trigger_name
 {BEFORE | AFTER | INSTEAD OF }
 {INSERT [OR] | UPDATE [OR] | DELETE}
@@ -57,7 +57,7 @@ A standalone function is created using the CREATE FUNCTION statement. The simpli
 the CREATE OR REPLACE PROCEDURE statement is as follows
 
 ## Syntax
-```
+```sql
 CREATE [OR REPLACE] FUNCTION function_name
 [(parameter_name [IN | OUT | IN OUT] type [, ...])]
 RETURN return_datatype
