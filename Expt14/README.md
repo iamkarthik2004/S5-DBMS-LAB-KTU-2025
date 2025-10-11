@@ -34,7 +34,7 @@ Triggers are, in fact, written to be executed in response to any of the followin
 
 ## Syntax
 ```
-CREATE [OR REPLACE ] TRIGGER trigger_name
+CREATE [OR REPLACE] TRIGGER trigger_name
 {BEFORE | AFTER | INSTEAD OF }
 {INSERT [OR] | UPDATE [OR] | DELETE}
 [OF col_name]
@@ -43,11 +43,11 @@ ON table_name
 [FOR EACH ROW]
 WHEN (condition)
 DECLARE
-Declaration-statements
+   Declaration-statements
 BEGIN
-Executable-statements
+   Executable-statements
 EXCEPTION
-exception_section
+   exception_section
 END;
 ```
 
@@ -63,6 +63,7 @@ CREATE [OR REPLACE] FUNCTION function_name
 RETURN return_datatype
 {IS | AS}
 BEGIN
-< function_body >
+   < function_body >
 END [function_name];
+
 ```
