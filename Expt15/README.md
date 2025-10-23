@@ -1,4 +1,4 @@
-# 💡 Experiment 16 - Creation of Packages
+# 💡 Experiment 15 - Creation of Packages
 
 ## 🎯 AIM
 To implement **Packages** in PL/SQL.
