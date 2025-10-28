@@ -21,3 +21,8 @@ BEGIN
    sum_avg_n(&n);
 END;
 /
+
+--Enter value for n: 5
+--Sum of first 5 numbers = 15
+--Average = 3
+
