@@ -1,77 +1,61 @@
-Create table employee(
-emp_id int not null, 
-emp_name varchar(30), 
-emp_dept varchar(30),
-emp_salary_in_us_dollar float,
-primary key(emp_id));
+CREATE TABLE Employee (
+    Emp_id INT PRIMARY KEY,
+    Emp_name VARCHAR(50),
+    Dept VARCHAR(50),
+    Salary DECIMAL(10,2)
+);
 
-
-insert into employee (emp_id, emp_name, emp_dept, emp_salary_in_us_dollar) 
-values (1,'Dora','HR',10000);
-
-insert into employee (emp_id, emp_name, emp_dept, emp_salary_in_us_dollar) 
-values (2,'Olivia','Marketing',3000);
-
-insert into employee (emp_id, emp_name, emp_dept, emp_salary_in_us_dollar)
-values (3,'Canon','Production',4000);
-
-insert into employee (emp_id, emp_name, emp_dept, emp_salary_in_us_dollar) 
-values (4,'Aron','Sale',5000);
-
-insert into employee (emp_id, emp_name, emp_dept, emp_salary_in_us_dollar) 
-values (5,'Akhil','Sale',7000);
-
-
-select * from employee;
-
---Qn 1
-select emp_name from employee where emp_salary_in_us_dollar > 7000;
-
---Qn 3
-insert into employee (emp_id, emp_name, emp_dept, emp_salary_in_us_dollar) 
-values (6,'Daniel Haris','Production',60700);
-
---Qn 2
-insert into employee (emp_id, emp_name, emp_dept, emp_salary_in_us_dollar) 
-values (7,'David Smith','Marketing',802000);
-
---Qn 4 (delete the employee with emp_id = 3)
-delete from employee where emp_id = 3;
-
---Qn 5
-select emp_name from employee where emp_name not like 'D%' and emp_name not like 'O%';
-
---Qn 6
-select emp_dept, SUM (emp_salary_in_us_dollar)
-FROM employee 
-GROUP BY emp_dept;
-
---Qn 7
-Update employee set emp_salary_in_us_dollar = emp_salary_in_us_dollar + emp_salary_in_us_dollar * 1.05 where emp_dept='Production';
-
---Qn 8
-delete from employee where emp_salary_in_us_dollar < 7000;
-
---Qn 9
-select emp_name, emp_salary_in_us_dollar from employee where emp_salary_in_us_dollar = (select min(emp_salary_in_us_dollar) from employee); 
+INSERT INTO Employee VALUES (1, 'David Smith', 'HR', 7500.00);
+INSERT INTO Employee VALUES (2, 'Onion', 'Marketing', 6900.00)
+INSERT INTO Employee VALUES (3, 'Charles Brown', 'Production', 7200.00);
+INSERT INTO Employee VALUES (4, 'Arjun Kannan', 'Sales', 8800.00);
+INSERT INTO Employee VALUES (5, 'Athul George', 'Production', 6600.00);
 
 
 
---Qn 10
-Update employee set emp_salary_in_us_dollar = 8200 where emp_dept='Marketing';
+select * from Employee;
 
+--1. Select employees with salaries greater than 7000
+SELECT * FROM Employee WHERE Salary > 7000;
 
---Qn 11
-select emp_name from employee where emp_name like 'A%';
+--2. Update the salary of 'David Smith' to 8200.00
+UPDATE Employee SET Salary = 8200.00 WHERE Emp_name = 'David Smith';
 
---Qn 12
-select emp_name from employee where emp_name like '%it%';
+--3. Insert a new employee (Emp_id = 6)
+INSERT INTO Employee VALUES (6, 'Daniel Harris', 'Production', 6700.00);
 
---Qn 13
-select upper(emp_dept) from employee;
+--4. Delete the employee with Emp_id = 3 ('Charles Brown')
+DELETE FROM Employee WHERE Emp_id = 3;
 
---Qn 14
-SELECT * FROM employee WHERE emp_dept LIKE 'M_r%' AND emp_dept LIKE '%ket%' ;
+--5. Select employees whose names do NOT start with 'D' or 'O'
+SELECT * FROM Employee WHERE Emp_name NOT LIKE 'D%' AND Emp_name NOT LIKE 'O%';
 
---Qn 15
-select distinct upper(reverse(emp_dept)) from employee;
+--6. Calculate total salary expense for each department
+ SELECT Dept, SUM(Salary) AS Total_SalaryFROM Employee GROUP BY Dept;
+
+--7. Update salary of employees in 'Production' dept by 5%
+UPDATE Employee SET Salary = Salary * 1.05 WHERE Dept = 'Production';
+
+--8. Delete all employees with salaries below 7000
+DELETE FROM Employee WHERE Salary < 7000;
+
+--9. Find employee with the lowest salary (name + salary)
+SELECT Emp_name, Salary FROM Employee WHERE Salary = (SELECT MIN(Salary) FROM Employee);
+
+--10. Update salary of employees in 'Marketing' dept to 8200.00
+UPDATE Employee SET Salary = 8200.00 WHERE Dept = 'Marketing';
+
+--11. Find names of all employees starting with 'A'
+SELECT Emp_name FROM Employee WHERE Emp_name LIKE 'A%';
+
+--12. List names of employees whose names contain substring 'it'
+SELECT Emp_name FROM Employee WHERE Emp_name LIKE '%it%';
+
+--13. List all departments in UPPER CASE format
+SELECT DISTINCT UPPER(Dept) AS Department_Upper FROM Employee;
+
+--14. List employee details whose department starts with 'M', 3rd letter is 'r', and contains 'ket'
+SELECT * FROM Employee WHERE Dept LIKE 'M_r%' AND Dept LIKE '%ket%';
+
+--15. List all departments in reverse in uppercase format (no duplicates)
+SELECT DISTINCT REVERSE(UPPER(Dept)) AS Reversed_Dept FROM Employee;
