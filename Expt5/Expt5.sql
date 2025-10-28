@@ -11,8 +11,6 @@ INSERT INTO Employee VALUES (3, 'Charles Brown', 'Production', 7200.00);
 INSERT INTO Employee VALUES (4, 'Arjun Kannan', 'Sales', 8800.00);
 INSERT INTO Employee VALUES (5, 'Athul George', 'Production', 6600.00);
 
-
-
 select * from Employee;
 
 --1. Select employees with salaries greater than 7000
