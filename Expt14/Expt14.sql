@@ -21,7 +21,8 @@ begin
 end;
 /
 
---Qn2. Create a table student_details(roll int, marks int, phone in). Create a procedure pr1 to update all rows in the database. Boost the marks of all students by 5%
+--Qn2. Create a table student_details(roll int, marks int, phone in). 
+--Create a procedure pr1 to update all rows in the database. Boost the marks of all students by 5%
 Create table student_details(roll int, marks in, phone int);
 insert into student_details values(1,20,3429502939);
 insert into student_details values(2,18,9899845235);
