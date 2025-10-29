@@ -1,0 +1,36 @@
+1. A subquery that is nested within the WHERE clause of the outer query is 
+called a: ?
+- Correlated subquery
+2. Which clause is used in a JOIN condition to specify the condition on which 
+tables should be joined
+  - ON
+3. Which operator is used to combine the results of two queries, keeping only 
+distinct records from both?
+  - UNION
+4. Which of the following is not a type of JOIN operation?
+  - Outer Join
+5. What is the result of a CROSS JOIN between two tables?- All combinations of rows from both tables are returned
+6. Which SQL statement is used to extract data from a database?
+  - SELECT
+7. Which clause is used to filter groups in SQL after a GROUP BY operation?
+  -  HAVING
+8. Which type of JOIN includes only the rows that have matching values in both 
+tables?
+  - Inner join
+9. To find the employees whose salary is greater than the average salary of their 
+department, you would use a:
+  - Correlated subquery
+10. Which of the following operations eliminates duplicate rows in the result 
+set?
+  - UNION
+11. Which type of JOIN returns all rows from the left table and the matching 
+rows from the right table?
+  - Left Join
+12. The UNION ALL operation returns:
+  - All rows, including duplicates
+13. A ____ is a query that retrieves rows from more than one table or view.
+  - Join
+14. In SQL, what type of subquery does not depend on the outer query?
+  - Non – Correlated Subquery
+15. In a FULL OUTER JOIN, which rows are included in the result set?
+  - All rows from both tables, whether or not there is a match
