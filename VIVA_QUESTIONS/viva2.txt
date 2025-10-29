@@ -1,0 +1,35 @@
+1) To change the name of a table ‘employee’ to ‘staff’, which command should 
+be used?
+  - RENAME TABLE employee TO staff;
+2) To remove all rows from a table and free the space used by that table, which 
+command is preferred?
+  - TRUNCATE
+3) What does the TRUNCATE command do?
+  - Removes all rows from a table without logging each row deletion
+4) What happens when you DROP a table?
+  - The table and its structure are deleted
+5) What is the correct SQL syntax to add a new column ‘email’ to a table 
+‘students’?
+  - ALTER TABLE students ADD email VARCHAR(100);
+6) What is the main difference between DELETE and TRUNCATE?
+  - DELETE logs individual row deletions, TRUNCATE does not
+7) What is the purpose of the ALTER TABLE command?
+  - To modify the structure of a table
+8) Which command can permanently remove both structure and data from a 
+table?
+  - DROP
+9) Which command is used to delete all data from a table but not the structure?
+  - TRUNCATE
+10) Which of the following is valid constraint in SQL?
+ a) FORMAT b) CHECK c) ONLYKEY d) SORT
+  - b) CHECK
+11) Which of the following is NOT a DDL command?
+  - SELECT
+12) Which SQL command is used to define constraints on a table?
+  - CREATE or ALTE
+13) Which SQL command is used to modify a table’s column name?
+  - ALTER TABLE ... RENAME COLUMN
+14) Which SQL command is used to modify the data type of a column?
+  - ALTER TABLE ... MODIFY
+15) Which statement is true about the DROP command?
+  - It deletes data and structure of the object
