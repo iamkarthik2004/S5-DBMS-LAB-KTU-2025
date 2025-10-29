@@ -1,0 +1,33 @@
+1) In an ER diagram, what symbol represent a relationship?
+- Diamond
+2) The number of entities to which another entity can be related through a 
+relationship set is called?
+- Cardinality
+3) What does normalization do?
+   - Removes data duplication and improves data integrity
+4) What does SQL stand for?
+   - Structured Query Language
+5) What is a database?
+   - Organized collection of data or information that can be accessed, updated, and 
+managed
+6) What is a primary key?
+   - A key that uniquely identifies a row in a table
+7) What is an entity in a database?
+     - A real-world object that is distinguishable from other objects
+8) Which language is used to define the structure of a database?
+     - DDL (Data Definition Language)
+9) Which of the following is a function of the DBMS?
+   - Storing, retrieving, and updating data
+10) Which of the following is an example of a DBMS?
+ a) Adobe Reader b) Notepad c) Microsoft Word d) MySQL
+   - d) MySQL
+11) Which of the following is not a type of database?
+ a) Hierarchical b) Linear c) Relational d) Network
+   - b) Linear
+12) Which of the following is true about relational databases?- Data is stored in tables (relations)
+ 13) Which of the following is used to retrieve data from a database?
+ a) DDL b)DML c)DCL d)TCL- b) DML
+ 14) Which of the following operation is nor part of DML?
+ a) CREATE b) SELECT c) INSERT d) DELETE- a) CREATE
+ 15) Which part of SQL is used to control access to data?
+  - DCL
