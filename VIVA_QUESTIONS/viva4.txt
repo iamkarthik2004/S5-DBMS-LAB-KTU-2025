@@ -1,0 +1,50 @@
+1. What is the output of SELECT REVERSE(SUBSTR(‘Palindrome’,2,5)) 
+FROM DUAL?
+ a) indro b) ordnaL c) ordna d) ordnaP
+- c) ordna
+2. SELECT LENGTH(RTRIM(‘India’)) FROM DUAL. What is returned?
+- 7
+3. What is returned by SELECT TO_CHAR(SYSDATE, ‘Day, Month DD, 
+YYYY’) FROM DUAL?
+- The full date with day and month names
+4. What will SELECT LPAD(‘123’, ‘6’ , ‘0’) FROM DUAL return?
+- 000123
+5. What is the output of SELECT SUBSTR(‘Development’, -4, 3) FROM 
+DUAL?
+- men
+6. What is the result of SELECT CEIL(17/5) FROM DUAL?
+- 5
+7. What is the result of SELECT ROUND(125.56789,-2) FROM DUAL?
+- 100
+8. What does SELECT REPLACE(‘Oracle SQL SQL’, ‘SQL’, ‘PL/SQL’) 
+FROM DUAL return?
+- Oracle PL/SQL PL/SQL
+9. Evaluate: SELECT ABS(CEIL(-9.1))
+- 10
+10. What does SELECT SQRT(POWER(3,4)) FROM DUAL return?
+- 9
+11. What is the output of SELECT GREATEST(‘alpha’, ‘Beta’, ‘Gamma’) 
+FROM DUAL?
+- Gamma
+12. What is returned by SELECT INITCAP(‘oRaClE SQL’) FROM DUAL?
+- Oracle Sql
+13. What is returned by SELECT NVL(NULL, ‘Default’) FROM DUAL?
+- Default
+14. What will SELECT INSTR(‘OracleDatabase’, ‘a’, 1, 3) FROM DUAL 
+return?
+- 9
+15. If you execute SELECT RPAD(‘SQL’, 8, ‘*’) || LPAD(‘Fun’,8, ‘#’) FROM 
+DUAL, what will the result be?
+- SQL*****####Fun
+16. What will SELECT MOD(25,4) FROM DUAL return?
+- 1
+17. If you execute SELECT CONCAT(CONCAT(‘SQL’, ‘is’), ‘cool’) FROM 
+DUAL, what is returned?
+- SQL is cool
+18. What does SELECT TO_CHAR(SYSTIMESTAMP, ‘HH24:MI:SS.FF’) 
+FROM DUAL return?
+- Time with fractional seconds
+19. SELECT TRIM(BOTH ‘x’ FROM ‘xxxOraclexxx’) FROM DUAL?
+- Oracle
+20. What will SELECT FLOOR(20.99) + CEIL(-3.7) FROM DUAL return?
+- 17
