@@ -1,0 +1,45 @@
+1) A student table contains duplicate names. You want to delete only one 
+occurrence of a name ‘Rahul’. Which SQL operation will help?
+  - DELETE FROM student WHERE rownum=1 AND name = ‘Rahul’;
+2) A table that displays data redundancies yields_________anomalies.
+ a) Insertion b) All of the mentioned c) Update d)Deletion
+  - b) All of the mentioned
+3) Data Manipulation Language (DML) includes statements that modify the ___ 
+of a database?
+  - Data
+4) In SQL, what is the purpose of the WHERE clause in a DELETE command?
+  - To filter rows to be deleted.
+5) In which case will the INSERT command fail?
+ a) Data type mismatch occurs
+ b) Primary key constraint is violated
+ c) Table has a NOT NULL column but NULL value is inserted
+ d) All of the above
+  - d) All of the above
+6)What happens if you omit the WHERE clause in an UPDATE statement?
+  - All rows in the tables are updated
+7) What is the correct SQL syntax to add a new row into a table ‘employees’?
+  - INSERT INTO employees VALUES (101,’Karthik’,’Developer’);
+8) What is the result of this SQL command: ‘DELETE FROM orders 
+WHERE1=1;’?
+  - It deletes all rows from the orders table
+9) What will happen if you try to delete a record that is referenced by a foreign 
+key in another table?
+  - The database generates an error
+10) Which clause is essential in an UPDATE query to avoid accidental mass 
+changes?
+  - WHERE
+11) Which command will replace all NULL values in the column ‘salary’ with 0 
+in the ‘employee’ table?
+  - UPDATE employee SET salary = 0 WHERE salary IS NULL;
+12) Which DML command is used to retrieve data from one or more tables?
+  - SELECT
+13) Which of the following is not included in DML(Data Manipulation 
+Language)?
+ a) Insert b) Alter c) Update d) Delete
+  - b) Alter
+14) Which of the following operations will modify existing values in a table?
+ a) UPDATE b) RENAME c) SELECT d) DELETE
+  - a) UPDATE
+15) Which SQL operation will update the department to ‘Sales’ for all 
+employees with salary > 50000?
+  - UPDATE employees SET department = ‘Sales’ WHERE salary &gt; 50000;
